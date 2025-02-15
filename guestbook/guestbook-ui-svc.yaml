@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: guestbook-ui
   annotations:
-    "tailscale.com/expose": "true"
+    tailscale.com/expose: "true"
 spec:
   ports:
   - port: 80
